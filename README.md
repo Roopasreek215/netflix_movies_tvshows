@@ -1,1 +1,27 @@
-# netflix_movies_tvshows
+netflix_movies_tvshows
+
+Summary of changes made to the dataset :
+
+1.Removed duplicates
+
+2.Filled missing values:
+
+   - director: "No Director"
+
+   - cast: "No Cast Info"
+
+   - country: "Unknown Country"
+
+   - date_added: "Unknown Date"
+
+   - rating: "Unrated"
+
+   - duration: "Unknown Duration"
+
+3.Converted date_added to datetime format
+
+4.Extracted duration_int and duration_type
+
+5.Stripped whitespaces from column names and string values
+
+6.Saved cleaned data to CSV
